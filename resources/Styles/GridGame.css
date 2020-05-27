@@ -1,0 +1,55 @@
+.wrapper
+{
+	width: 100vw;
+	height: 100vh;
+}
+
+
+.content-celda
+{
+	background: var(--background);
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.grid-header{background: var(--Color2:);}
+.grid-footer{background: var(--Color2:);}
+
+
+.row
+{
+	height: 10vh;
+}
+
+.celda-juego
+{
+	height: 40vh;
+	
+}
+
+
+.celda-button
+{
+	
+	background: red;
+	width: 50%;
+	height: 80%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+#button1 
+{background-color: var(--Amarillo);
+	margin-left:50%;}
+#button2 
+{background-color: var(--Rojo:);margin-right:50%;}
+#button3 
+{background-color: var(--Verde);margin-left:50%;}
+#button4 
+{background-color: var(--Celeste);margin-right:50%;}
+

@@ -1,0 +1,43 @@
+.welcome
+{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.welcome h1
+{
+
+	font-size: 3em;
+}
+
+.welcome a
+{
+	text-decoration: none;
+	border-radius: 16px;
+	background:white;
+	padding: 0 0px;
+	border: 0;
+}
+
+.welcome a h3
+{
+	font-size: 3em;
+	margin: 3px 15px;
+}
+
+
+
+@media (min-width: 500px)   
+{
+	.welcome h1
+	{
+
+		font-size: 6em;
+	}
+
+}
+

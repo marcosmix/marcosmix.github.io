@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courgette&family=Francois+One&display=swap');
+:root
+{
+	--background: #3AD1A1;
+	--Textos1:#062732;
+	--Textos2:#FEF1F1;
+	--Color1:#650976;
+	--Color2:#8A0C41;
+	--Rojo:#E21717;
+	--Verde:#07711B;
+	--Celeste:#205DC3;
+	--Amarillo:#F1F91E;
+}
+
+body
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background: var(--background);
+	font-family:'Courgette', cursive;
+}
