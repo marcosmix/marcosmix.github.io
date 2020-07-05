@@ -4,42 +4,45 @@
 	<title>Juega con los animales</title>
 	<link rel="stylesheet" type="text/css" href="../Styles/global.css">
 	<link rel="stylesheet" type="text/css" href="../Styles/GridGame.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
 </head>
 <body>
 	
-	<div class="wrapper ">
-		<div class="row">
-			<div class="col-12 grid-header"></div>
-		</div>
-		<div class="row celda-juego">
-			<div class="col content-celda ">
-				<div class="celda-button" data-animal="gatito" ontouchstart="Toque(this)"  onclick="Toque(this)" id="button1">
-					
-				</div>
-			</div>
-			<div class="col content-celda ">
-				<div class="celda-button" id="button2" data-animal="perrito" ontouchstart="Toque(this)" onclick="Toque(this)">
-					
-				</div>
-			</div>
-		</div>
-		 
-		<div class="row celda-juego">
-			<div class="col-sm content-celda " >
-				<div class="celda-button" id="button3"data-animal="vaquita" ontouchstart="Toque(this)" onclick="Toque(this)">
-					
-				</div>
-			</div>
-			<div class="col-sm content-celda">
-				<div class="celda-button" id="button4"data-animal="caballito" ontouchstart="Toque(this)" onclick="Toque(this)">
-					
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-12 grid-footer">
+	<section>
+		<header class="row">
+			<h1>>Dylap 1.0</h1>
+		</header>
+
+			
+			<div class="grid-wrap ">
 				
+				
+						<div class="celda-button" data-animal="gatito" ontouchstart="Toque(this)"  onclick="Toque(this)" id="button1">
+							
+						</div>
+					
+					
+						<div class="celda-button" id="button2" data-animal="perrito" ontouchstart="Toque(this)" onclick="Toque(this)">
+							
+						</div>
+					
+				 
+			
+						<div class="celda-button" id="button3"data-animal="vaquita" ontouchstart="Toque(this)" onclick="Toque(this)">
+							
+						</div>
+					
+						<div class="celda-button" id="button4"data-animal="caballito" ontouchstart="Toque(this)" onclick="Toque(this)">
+						</div>
+					
+			</div>
+			
+		<footer>
+		
+				Desarrollado por Marcos Caballero.
+				<br>
+				Esta pagina infantil esta dedicada a mi ahijado Dylan Olivera 
+
 				<div style="display: none;">
 					<audio id="sound_gato" src="../sound/gato.mp3"></audio>
 					<audio id="sound_perro" src="../sound/perro.mp3"></audio>
@@ -47,9 +50,10 @@
 					<audio id="sound_vaca" src="../sound/vaca.mp3"></audio>
 				</div>
 
-			</div>
-		</div>
-	</div>
+			
+		</footer>
+	</section>
+	
 
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
