@@ -1,0 +1,35 @@
+.cont-formulario
+{
+	display: grid;
+	grid-template-columns: 85% 15%;
+
+	grid-template-areas: "listado pub_vertical"
+						 "pub_horizontal pub_horizontal";
+
+}
+
+
+.cont-formulario
+{
+	margin:5px 15px;
+	grid-area: listado;
+}
+
+.vertical
+{
+	grid-area: pub_vertical;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 25px auto;
+}
+
+.horizontal
+{
+	grid-area: pub_horizontal;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}

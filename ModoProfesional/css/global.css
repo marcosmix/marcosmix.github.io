@@ -1,0 +1,75 @@
+:root{
+--color1:#154360;
+--color2:#d4e6f1;
+/*--color3:;*/
+--fuente1:Bauhaus;
+}
+
+@font-face
+{
+	font-family: Bauhaus;
+	src:url("bauhaus/BauhausRegular.ttf"),url('bauhaus/BauhausItalic.ttf');
+	
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family:var(--fuente1);
+	color: var(--color1)
+
+}
+
+
+ul,ol,a,a:visited,hover
+{
+	text-decoration: none;
+	list-style: none;
+	
+} 
+
+a{color:black;}
+
+input
+{
+	outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+
+}
+
+input:focus
+{
+		
+	outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+
+	
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  /* cursor: default; */
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-user-select: none; /* for button */
+   -webkit-appearance: button; /* for input */
+     -moz-user-select: none;
+      -ms-user-select: none;
+}
+
+
+button:focus, select:focus,textarea:focus{ outline: none;}

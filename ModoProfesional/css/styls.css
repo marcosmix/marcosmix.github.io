@@ -1,0 +1,13 @@
+@import url("componetes/text.css");
+@import url("componetes/inputs.css");
+@import url("componetes/box.css");
+@import url("componetes/listados.css");
+
+@import url("Estructuras/menu.css");
+@import url("Estructuras/main-structs.css");
+@import url("Estructuras/profesionales-struct.css");
+@import url("Estructuras/formulario-structs.css");
+
+@import url("Plantillas/main-plantilla.css");
+@import url("Plantillas/formulario-plantilla.css");
+@import url("Plantillas/profesionales-plantilla.css");

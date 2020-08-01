@@ -1,0 +1,42 @@
+
+.main-title
+{
+	margin: 0;
+	color: var(--color1);
+	font-weight: 800;
+	font-size: 4em;
+		
+}
+
+/*-------------------------------------------*/
+
+.hero-header_title
+{
+	margin: 0;
+	font-size: 2em;
+	border: 4px;
+
+}
+
+
+/*-------------------------------------------*/
+
+.text-button-hero
+{
+	display: inline-block;
+	padding: 2px 15px;
+	background-color: var(--color2);
+	color:var(--color1);
+	border: 1px var(--color2); 
+	font-size: 1.5em;
+	font-weight: 600;
+	margin-right:2px;
+	margin-left: 2px;	 
+}
+
+.text-button-hero:hover
+{
+	background-color: var(--color1);
+	color: var(--color2);
+}
+

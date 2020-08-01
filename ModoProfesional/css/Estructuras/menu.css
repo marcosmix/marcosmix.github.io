@@ -1,0 +1,56 @@
+
+/*---------Menu desplegable ------------*/
+.menu
+{
+	display: inline-block;
+	cursor: pointer;
+	
+	
+}
+
+.menu-item
+{
+	font-size: 1em;
+	font-weight: 700;
+	padding: 3px 7px;
+	border-radius: 7px;
+	transition: 0.4s;
+	
+}
+
+.menu-item:hover
+{
+	background-color: var(--color2);
+	/*color:var(--color2);*/
+}
+
+.menu-lista
+{
+    position: relative;
+  
+}
+
+.sub-menu-lista
+{
+	position: absolute;
+	display: none;
+	left:80px;
+	
+
+	width: max-content;	
+	
+}
+
+.sub-menu-lista>.menu-item
+{
+	font-size: 1em;
+}
+
+.menu-item:hover> .sub-menu-lista
+{
+	display: inline-block;
+	
+
+}
+
+/*---------Menu desplegable ------------*/

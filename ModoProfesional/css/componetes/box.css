@@ -1,0 +1,28 @@
+/*-------------------------------------------*/
+
+.box_title
+{	
+	
+	
+}
+
+.box-left{border-radius: 25px 0px 0px 25px;}
+.box-rigth{border-radius: 0px 25px 25px 0px;}
+
+/*-------------------------------------------*/
+
+.cont-name
+{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height: 5vh;
+	width: 100%;
+	background-color: var(--color1);
+	color: var(--color2);
+	
+}
+.cont-name h2
+{
+	margin-left: 12px;
+}
